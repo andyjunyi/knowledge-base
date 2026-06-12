@@ -1,0 +1,92 @@
+site_name: Andy 的知識庫
+site_description: 個人知識管理 — 教學、會考分析、投資、YouTube
+site_author: Andy Cheng
+site_url: https://andyjunyi.github.io/knowledge-base/
+
+theme:
+  name: material
+  language: zh-TW
+  icon:
+    logo: material/book-open-variant
+    favicon: material/book-open-variant
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: 切換深色模式
+    - scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切換淺色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji
+  - admonition
+  - pymdownx.details
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
+plugins:
+  - search:
+      lang: zh
+
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@dwhsvideo
+      name: YouTube 頻道
+  generator: false
+
+copyright: Copyright &copy; 2026 Andy Cheng
+
+nav:
+  - 🏠 首頁: Welcome.md
+  - 📊 會考分析:
+    - 00 - MOC/會考分析 MOC.md
+    - 高頻單字:
+      - 03 - 會考分析/高頻單字/會考高頻單字TOP100.md
+      - 03 - 會考分析/高頻單字/GK-350 高考高頻350單字.md
+    - 歷屆試題:
+      - 102年: 03 - 會考分析/歷屆試題/102年會考試題.md
+      - 103年: 03 - 會考分析/歷屆試題/103年會考試題.md
+      - 104年: 03 - 會考分析/歷屆試題/104年會考試題.md
+      - 105年: 03 - 會考分析/歷屆試題/105年會考試題.md
+      - 106年: 03 - 會考分析/歷屆試題/106年會考試題.md
+      - 107年: 03 - 會考分析/歷屆試題/107年會考試題.md
+      - 108年: 03 - 會考分析/歷屆試題/108年會考試題.md
+      - 109年: 03 - 會考分析/歷屆試題/109年會考試題.md
+      - 110年: 03 - 會考分析/歷屆試題/110年會考試題.md
+      - 111年: 03 - 會考分析/歷屆試題/111年會考試題.md
+      - 112年: 03 - 會考分析/歷屆試題/112年會考試題.md
+      - 113年: 03 - 會考分析/歷屆試題/113年會考試題.md
+      - 114年: 03 - 會考分析/歷屆試題/114年會考試題.md
+  - 📝 教學資源:
+    - 00 - MOC/教學資源 MOC.md
+    - 文法: 01 - 教學資源/文法/會考英語15大高頻文法考點.md
+    - 課程筆記: 01 - 教學資源/課程筆記/範例：現在完成式.md
+  - 🎬 YouTube: 00 - MOC/YouTube MOC.md
+  - 💹 投資: 00 - MOC/投資 MOC.md
+  - 💻 專案: 00 - MOC/Projects MOC.md
+  - 🔧 資源庫: 07 - 資源庫/工具推薦.md
